@@ -8,7 +8,7 @@ namespace RateLimiting.Controllers
     [ApiController]
     public class TestController : ControllerBase
     {
-        [EnableRateLimiting("Fixed")]
+        //[EnableRateLimiting("Fixed")]
         public IActionResult Get()
         {
             return Ok();
@@ -16,7 +16,7 @@ namespace RateLimiting.Controllers
 
         [EnableRateLimiting("Sliding")]
         [HttpGet]
-        [Route("TestRateLimitWeb")]
+        //[Route("TestRateLimitWeb")]
         public int GetCurrentTime()
         {
             return DateTime.Now.Second;
@@ -24,7 +24,7 @@ namespace RateLimiting.Controllers
 
 
         [EnableRateLimiting("Conccurency")]
-        [HttpGet("Conccurency")]
+        //[HttpGet("Conccurency")]
         public async Task<IActionResult> GetAsync()
         {
             await Task.Delay(20000);
