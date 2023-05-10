@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33516.290
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RateLimiting", "RateLimiting\RateLimiting.csproj", "{77F72B9F-2FB8-4DA1-9263-3DAA42F51467}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{77F72B9F-2FB8-4DA1-9263-3DAA42F51467}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77F72B9F-2FB8-4DA1-9263-3DAA42F51467}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77F72B9F-2FB8-4DA1-9263-3DAA42F51467}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77F72B9F-2FB8-4DA1-9263-3DAA42F51467}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0CA03F70-5424-4548-92C3-0D35CD0AB101}
+	EndGlobalSection
+EndGlobal
